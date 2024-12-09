@@ -30,8 +30,8 @@ class _MapScreenState extends State<MapScreen> {
         onMapCreated: _onMapCreated,
         styleString: "mapbox://styles/mapbox/streets-v11",
         initialCameraPosition: CameraPosition(
-          target: LatLng(40.0, -74.5),
-          zoom: 9,
+          target: LatLng(10.5166163,7.449588),
+          zoom: 19,
         ),
       ),
     );
